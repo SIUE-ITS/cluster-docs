@@ -12,7 +12,8 @@
       --sidebar-toggle-offset-top: 40px;
       /* --navbar-root-padding: 5px; */
       --navbar-root-margin: 10px;
-      --navbar-root-color: rgba(255, 255,255, 1);
+      --navbar-root-color: rgba(255, 255,255, .75);
+      --navbar-root-color--hover: rgba(255, 255,255, .50);
       --zoomimage-overlay-background: rgba(255, 255, 255);
 }
 nav.app-nav {
