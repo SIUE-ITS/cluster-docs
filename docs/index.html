@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SIUE ITS Cyberinfrastructure Documentation</title>
+  <link rel="icon" href="_media/favicon.ico">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+  <link rel="stylesheet" href="theme-custom.css">
+</head>
+<body>
+  <div id="app">Please wait...</div>
+  <script src="//cdn.jsdelivr.net/npm/docsify-edit-on-github"></script>
+  <script>
+    window.$docsify = {
+      name: 'SIUE ITS Cyber-infrastructure',
+      repo: 'https://github.com/SIUE-ITS/cluster-docs',
+      // maxLevel: 4,
+      coverpage: true,
+      logo: '/_media/sidebar_logo.png',
+      loadNavbar: true,
+      loadSidebar: true,
+      // autoHeader: true,
+      // maxLevel: 4,
+      subMaxLevel: 3,
+      sidebarDisplayLevel: 0,
+      onlyCover: true,
+      // topMargin: 90,
+      // subMaxLevel: 2,
+      // auto2top: true,
+      // logo: '/_media/logo.png',
+      themeColor: '#e8232b',
+      topMargin: 45,
+      plugins: [
+        EditOnGithubPlugin.create('https://github.com/SIUE-ITS/cluster-docs/blob/main/docs/', null, 'Edit on git')
+      ]
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- <script src="https://unpkg.com/docsify-copy-code"></script> -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+</body>
+</html>
