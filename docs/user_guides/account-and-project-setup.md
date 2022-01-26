@@ -22,7 +22,7 @@ The user portal handles the management of 3 components: projects, allocations, a
 
 #### Projects:
 
-- All SIUE faculty & staff members can have at least one project
+- All SIUE faculty & staff members can have and require at least one project for access to resources
 - Each project has a description, field of research, grants, publications, and allocations to resources
 
 ### Setup overview
