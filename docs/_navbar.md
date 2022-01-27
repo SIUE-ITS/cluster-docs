@@ -1,5 +1,5 @@
 * [Home](README.md)
-* [SIUE OnDemand](https://ondemand.hpc.siue.edu/)
+* [OnDemand](https://ondemand.hpc.siue.edu/)
 * [About](https://www.siue.edu/its/cyberinfrastructure/)
 * [Cluster Stats](https://nc.hpc.siue.edu/)
 * [User Portal](https://coldfront.hpc.siue.edu/)
