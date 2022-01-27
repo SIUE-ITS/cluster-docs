@@ -2,5 +2,5 @@
 
 **Documentation for SIUE's HPC systems.**
 
-[Read More](user_guides/README.md)
+[Read More](README.md)
 [GitHub](https://github.com/SIUE-ITS/cluster-docs/)
