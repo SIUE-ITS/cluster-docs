@@ -1,3 +1,4 @@
+* [Home](README.md)
 * [SIUE OnDemand](https://ondemand.hpc.siue.edu/)
 * [About](https://www.siue.edu/its/cyberinfrastructure/)
 * [Cluster Stats](https://nc.hpc.siue.edu/)
