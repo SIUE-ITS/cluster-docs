@@ -62,15 +62,18 @@ You can add this line to your `~/.bash_profile` to automatically set this variab
 
 SIUE clusters are shared resources. As a result, there are quotas on usage to help ensure fair access to all SIUE researchers. There are quotas on both the amount of disk space used and the number of files stored.
 
-To check your quota, use `/software/tools/quota_check.py`. Compare the results of `Usage` and `Limit`. If the value of `Usage` is close to the value of `Limit`, you will need to delete, compress, consolidate, or archive files. For home and project directories you can also request an increase in disk space from the User Portal.
+To check your quota, use `/software/tools/quota_check.py`. Compare the results of `Usage` and `Limit`. If the value of `Usage` is close to the value of `Limit`, you will need to delete, compress, consolidate, or archive files. For certain directories you can also request an increase in disk space from the User Portal. !~~~~ Allocation change
 
 ```
-miwalls@ondemand:~$ /software/tools/quota_check.py
-+-----------+-----------------+-----------------+------------+------------+
-| Directory | Disk Usage (GB) | Disk Limit (GB) | File Usage | File Limit |
-+-----------+-----------------+-----------------+------------+------------+
-|  miwalls  |       2.52      |     10.49       |    5341    |  100000    |
-+-----------+-----------------+-----------------+------------+------------+
+miwalls@cc-head-01:~$ /software/tools/quota_check.py
++--------------------+-----------------+-----------------+------------+------------+
+|     Directory      | Disk Usage (GB) | Disk Limit (GB) | File Usage | File Limit |
++--------------------+-----------------+-----------------+------------+------------+
+|   /home/miwalls    |      515.89     |      104.86     |   743927   |  1000000   |
+| /project/miwalls_5 |       0.0       |      104.86     |     0      |  1000000   |
++--------------------+-----------------+-----------------+------------+------------+
 ```
 
 If you exceed the limits, you will receive a `disk quota exceeded` error and message when reaching 90% full on the [SIUE OnDemand](https://ondemand.hpc.siue.edu/) home page.
+
+![OnDemand Quota Limit Warning](_media/ondemand/quota-limit-warning.png ':size=50%')
