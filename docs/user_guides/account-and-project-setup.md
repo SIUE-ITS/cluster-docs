@@ -11,14 +11,14 @@ The user portal handles the management of 3 components: projects, allocations, a
 #### Resources:
 
 - SIUE has multiple distinct resources to track
-- Resources include: clusters, storage, and clouds
-- Some resources have limits (e.g., storage has a limit of GB/TB)
+- Resources include: clusters, cluster partitions, and storage
+- Some resources have limits (e.g., storage has a limit of gigabytes and number of files)
 
 #### Allocations:
 
 - Allocations indicate what resources you have access to and any limits associated with that access
 - All SIUE resources require an allocation
-- Allocations expire either by date or when a limit is reached - this information varies per allocation and is available when you log in to the user portal
+- Allocations expire either by date - this information varies per allocation and is available when you log in to the user portal
 
 #### Projects:
 
@@ -35,19 +35,19 @@ The following is an overview of the steps required to start using SIUE resources
 
 [Create New Project](user_guides/create-new-project.md)
 
-**STEP 3**: Next, you will need to request an allocation to at least one resource (cluster, storage, cloud, etc.). Most projects should request an allocation on the campus cluster:
+**STEP 3**: Next, you will need to request an allocation to at least one resource (cluster, storage, cloud, etc.). Most projects should request an allocation on the campus cluster as well as project storage:
 
 [Request New Allocation](user_guides/request-new-allocation.md)
 
-If you require access to more than one resource, you can request multiple allocations. Allocation requests can take a day or longer to be approved by the SIUE team.
+If you require access to more than one resource, you can request multiple allocations. Allocation requests can take a day or longer to be approved by the ITS cyberinfrastructure team.
 
 **STEP 4 (optional)**: You can also add users to your project/allocation to give them access to certain resources:
 
 [Adding Users](user_guides/adding-users.md)
 
-There is a delay of at least one hour before newly-added user accounts can access SIUE systems.
+There is a delay of about 10 minutes before newly-added user accounts can access SIUE systems.
 
-> Note: SIUE policy strictly forbids the sharing of accounts. If you have students, staff, or postdocs that are working for you, they must have their own SIUE account.
+> Note: SIUE policy strictly forbids the sharing of accounts. If you have students, staff, or postdocs that are working for you, they must have their own SIUE account contact help@siue.edu for more information.
 
 ### Additional information
 

@@ -1,22 +1,18 @@
 # Renewing Allocations
 
-All SIUE resource allocations expire at some point, typically at the end of each fiscal year in June. In order to maintain access to an allocation for another year, the PI who manages the project that the allocation falls under must renew the allocation in the SIUE user portal.
+All SIUE resource allocations expire at some point, typically a year after creation. In order to maintain access to an allocation for another year, the PI who manages the project that the allocation falls under must renew the allocation in the SIUE user portal.
 
 ### How to renew allocations
 
 If you have already completed your [project renewal](user_guides/yearly-project-renewal.md), you can renew your allocation by clicking on the "expires in __ days" label next to the allocation, either on the user portal home page or on the Project Detail page for the project the allocation is associated with:
 
-~!!!!ColdFront Allocation Renewal
+![Allocations Expiring Home](_media/project_and_allocation_management/allocations_expiring_home.png ':size=50%')
 
 This will bring you to the Allocation Detail page, where you can again click on the yellow "expires in __ days" label:
 
-~!!!!ColdFront Allocation Renewal
+![Allocation Expiring Detail](_media/project_and_allocation_management/allocation_expiring_detail.png ':size=50%')
 
 This will show you a list of all users on the allocation and you can choose whether to keep them active, remove them from only the allocation, or remove them from your project altogether:
-
-~!!!!ColdFront Allocation Renewal
-
-If you are renewing a paid allocation, you will see additional information on the renewal page regarding the terms of the allocation and the cost. By renewing your paid allocation, you are choosing to pay for that resource for another year:
 
 ~!!!!ColdFront Allocation Renewal
 
@@ -33,8 +29,6 @@ SIUE requires PIs to review and renew their project(s) annually or access to the
 ### Policies for storage
 
 SIUE provides each PI with up to 1 TB of storage across projects for free. 1 TB is the default minimum allocation per project. Storage allocations must be renewed each year, just like campus cluster allocations.
-
-If you purchase additional storage, your allocation expires when the warranty on the storage expires. Before this date, SIUE will purchase a new storage solution and you will have an opportunity to purchase storage on that system. If you decide not to do that, you will need to remove your data off SIUE's network before the old system is retired. We will provide plenty of notice before this occurs.
 
 ### What happens if the allocation expires?
 

@@ -6,7 +6,7 @@ We encourage all faculty members to provide information about the grants they've
 
 To enter grant information, click the green "Add Grant" button from the Project Detail page of the project your grant was awarded for.
 
-~!!!!ColdFront Add Grant
+![Add Grant](_media/project_and_allocation_management/project_add_grant.png ':size=50%')
 
 Fill in all fields pertaining to your grant (anything with an asterisk ( * ) is required) and click the blue "Save" button. Descriptions of the fields are as follows:
 
@@ -24,11 +24,11 @@ Fill in all fields pertaining to your grant (anything with an asterisk ( * ) is 
 - **Total amount awarded**: Total amount you were awarded in the grant. We use this to show how much SIUE is supporting in research dollars.
 - **Status**: Choose from Active, Archived, or Pending.
 
-~!!!!ColdFront Grant Information
+![Grant Information](_media/project_and_allocation_management/grant_information.png ':size=50%')
 
 Once created, you'll see the grant listed on the Project Detail page:
 
-~!!!!ColdFront Grant Listed
+![Grant Detail](_media/project_and_allocation_management/grant_detail.png ':size=50%')
 
 ### Editing grant info
 
@@ -38,4 +38,4 @@ You can edit existing grant information from your project's Project Detail page 
 
 You can delete a grant from your project's Project Detail page by scrolling down to the "Grants" list and clicking on the red "Delete Grants" button. You will be presented with a list of all grants associated with the project, both active and past (expired). Click the checkbox next to the grant(s) you'd like to delete and then click the red "Delete Selected Grants from Project" button.
 
-~!!!!ColdFront Delete Grant
+![Delete Grants](_media/project_and_allocation_management/delete_grants.png ':size=50%')

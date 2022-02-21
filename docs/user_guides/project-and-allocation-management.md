@@ -2,11 +2,11 @@
 
 [Log In To User Portal](https://coldfront.hpc.siue.edu)
 
-The SIUE User Portal is how users manage their projects and allocations on SIUE systems. Projects and allocations on campus cluster are managed in the SIUE User Portal.
+The SIUE User Portal is how users manage their projects and allocations on SIUE systems. Projects and allocations on the campus cluster are managed in the SIUE User Portal.
 
-For information on accessing the SIUE's systems (including the User Portal) and the types of allocations available, see the Accounts and Allocations page.
+For information on accessing SIUE's systems (including the User Portal) and the types of allocations available, see the [Accounts and Allocations](accounts-and-allocations.md) page.
 
-The SIUE User Portal uses ColdFront, an open source resource allocation management tool developed by the University at Buffalo's Center for Computational Research. ColdFront supports the management of resources and user allocations to those resources. The tool allows users to request and manage the access they and their students or collaborators have to the resources in the SIUE's data center.
+The SIUE User Portal uses ColdFront, an open source resource allocation management tool developed by the University at Buffalo's Center for Computational Research. ColdFront supports the management of resources and user allocations to those resources. The tool allows users to request and manage the access they and their students or collaborators have to the resources in SIUE's data center.
 
 The user portal handles the management of 3 components: projects, allocations, and resources. The graphic below shows how these components interact on SIUE systems:
 

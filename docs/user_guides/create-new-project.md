@@ -8,13 +8,12 @@ To create a new project, click on either the Projects link or the Project menu t
 
 Click on the "Add a Project" button.
 
-~!!!!ColdFront Project page
+![Creating a New Project](_media/project_and_allocation_management/creating_a_new_project.png ':size=50%')
 
 ### Project details
-
 Fill out the 4 fields with information about your project:
 
-~!!!!ColdFront Project page
+![Project Details](_media/project_and_allocation_management/project_details.png ':size=50%')
 
 - **Title**:
   - The title of your project should be concise but descriptive of the work being done. Avoid titles such as "My project" or "Project 1".
@@ -35,7 +34,7 @@ After inputting billing information, click the "Save" button. -->
 
 You will then be able to view all of your project information on the Project Detail page:
 
-~!!!!ColdFront Project page
+![Project Detail Page](_media/project_and_allocation_management/project_detail_page.gif ':size=50%')
 
 Entering your publication and grant information is not required to get started, but this information will be required to be updated on your [project renewal date each year](user_guides/yearly-project-renewal.md).
 
