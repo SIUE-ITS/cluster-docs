@@ -20,7 +20,6 @@ PhD-level researchers, which include faculty, research staff, and postdocs (but 
 
 If you believe you're eligible for PI status but this isn't reflected in the SIUE User Portal, please submit a help ticket to the SIUE.
 
-!~~~~~~~~~~~
 ### Computing resource allocations
 
 SIUE offers three types of computing resource allocations on the campus cluster: class, graduate student project, and research. For both resources, the unit of SU (System Unit) is used. One SU indicates one hour's use of a single CPU core. Computing resource allocations can be requested in the SIUE User Portal by a project's PI.
@@ -43,7 +42,7 @@ The table below shows a summary of the computing allocation tiers and their size
 
 Allocation Type	Size (in SUs)
 Small	200,000
-Medium	500,000
+Medium 500,000
 Large	1,000,000
 !~~~~~~~~~~
 
@@ -53,11 +52,11 @@ All active projects are eligible for a storage allocation on the SIUE `/project`
 
 PIs must request storage allocations in the SIUE User Portal. When requesting a new storage allocation, the default minimum allocation size is 1000 GB per project. All users for a project will have access to that project's allocation.
 
-If more than 1000 GB is needed, a PI can request additional storage space for free if available on the cluster. See the allocation change guide for how to request more storage for existing allocations. !~~~~ Allocation change
+If more than 1000 GB is needed, a PI can request additional storage space for free if available on the cluster. See the [storage request increase guide](user_guides/request-storage-increase.md) for how to request more storage for existing allocations.
 
 [See the Request New Allocation user guide](user_guides/request-new-allocation) for more information.
 
-If you have an existing storage allocation but would like to increase the amount of storage, please submit an allocation change request for the allocation with the requested increase in number of files and/or number of gigabytes. !~~~~ Allocation change
+If you have an existing storage allocation but would like to increase the amount of storage, please submit an [storage request increase](user_guides/request-storage-increase.md) for the allocation with the requested increase in number of files and/or number of gigabytes.
 
 ### Yearly renewal of allocations
 

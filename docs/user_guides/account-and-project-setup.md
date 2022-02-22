@@ -35,7 +35,7 @@ The following is an overview of the steps required to start using SIUE resources
 
 [Create New Project](user_guides/create-new-project.md)
 
-**STEP 3**: Next, you will need to request an allocation to at least one resource (cluster, storage, cloud, etc.). Most projects should request an allocation on the campus cluster as well as project storage:
+**STEP 3**: Next, you will need to request an allocation to at least one resource (cluster, storage, cluster partition, etc.). Most projects should request an allocation on the campus cluster as well as project storage:
 
 [Request New Allocation](user_guides/request-new-allocation.md)
 

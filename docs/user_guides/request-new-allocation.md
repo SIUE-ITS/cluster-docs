@@ -29,7 +29,7 @@ You will then be taken to the Request New Allocation page:
 The Resource drop-down list contains the following resource options:
 
 - campus (Cluster): SIUE's main computing resource. Shared and typically free to use.
-- project (Storage): Storage space in the /project file system. Initially 1TB is allocated to the project but more can be requested later !~~~~~ request increase
+- project (Storage): Storage space in the /project file system. Initially 1TB is allocated to the project but more can be requested later, more information at [storage request increase guide](user_guides/request-storage-increase.md).
 
 Select the resource you'd like access to and provide a justification for access to that resource. Your justification should include information on how you'll be using the resource and how many CPU cores, GPUs, and storage space you anticipate needing to use.
 
@@ -61,4 +61,4 @@ More information about the project review process can be found [here](user_guide
 
 ### Increasing an existing storage allocation
 
-!~~~~~~ request increase
+More information about requesting an increase in storage allocation can be found at the [storage request increase guide](user_guides/request-storage-increase.md).

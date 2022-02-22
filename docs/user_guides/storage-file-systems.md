@@ -62,7 +62,7 @@ You can add this line to your `~/.bash_profile` to automatically set this variab
 
 SIUE clusters are shared resources. As a result, there are quotas on usage to help ensure fair access to all SIUE researchers. There are quotas on both the amount of disk space used and the number of files stored.
 
-To check your quota, use `/software/tools/quota_check.py`. Compare the results of `Usage` and `Limit`. If the value of `Usage` is close to the value of `Limit`, you will need to delete, compress, consolidate, or archive files. For certain directories you can also request an increase in disk space from the User Portal. !~~~~ Allocation change
+To check your quota, use `/software/tools/quota_check.py`. Compare the results of `Usage` and `Limit`. If the value of `Usage` is close to the value of `Limit`, you will need to delete, compress, consolidate, or archive files. For certain directories you can also request an increase in disk space from the User Portal, more information at [storage request increase guide](user_guides/request-storage-increase.md).
 
 ```
 miwalls@cc-head-01:~$ /software/tools/quota_check.py
