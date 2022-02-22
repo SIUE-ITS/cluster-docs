@@ -8,15 +8,15 @@ To grant a user manager access, go to the Project Detail page for the project yo
 
 Click on the edit icon next to their username under the Actions column:
 
-![Modify User Status](_media/project_and_allocation_management/modify_user_button.png ':size=50%')
+![Modify User Status](_media/project_and_allocation_management/modify_user_button.png)
 
 Change the drop down option from User to Manager and click the Update button:
 
-![Modify Manager Status](_media/project_and_allocation_management/modify_manager_status.png ':size=50%')
+![Modify Manager Status](_media/project_and_allocation_management/modify_manager_status.png)
 
 When you return to the Project Detail page for that project, you will now see that user listed as a manager:
 
-![Manager User Status](_media/project_and_allocation_management/manager_user_status.png ':size=50%')
+![Manager User Status](_media/project_and_allocation_management/manager_user_status.png)
 
 When that user logs in to the User Portal, they will see your project and be able to add/remove users, request new allocations, and manage publications and grants.
 

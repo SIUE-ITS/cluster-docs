@@ -25,6 +25,7 @@
   - [Managing Grant Information](user_guides/managing-grant-information.md)
   - [Managing Publication Information](user_guides/managing-publication-information.md)
   - [Yearly Project Renewal](user_guides/yearly-project-renewal.md)
+  - [Request Storage Increase](user_guides/request-storage-increase.md)
   - [Email Notifications](user_guides/email-notifications.md)
   <!-- - [Add Billing Information](user_guides/adding-billing-information.md) -->
 - [Software and Programming](user_guides/software-and-programming.md)

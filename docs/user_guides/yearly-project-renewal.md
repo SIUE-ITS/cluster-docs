@@ -14,11 +14,11 @@ Once a year, we ask that you:
 
 If your project requires its yearly review, you will see a "Needs Review" alert beside your project's name on the user portal home page:
 
-![Project Review Home](_media/project_and_allocation_management/project_review_home.png ':size=50%')
+![Project Review Home](_media/project_and_allocation_management/project_review_home.png)
 
 The Project Detail page will also include an alert about the project review at the top of the page:
 
-![Project Needs Review](_media/project_and_allocation_management/project_needs_review.png ':size=50%')
+![Project Needs Review](_media/project_and_allocation_management/project_needs_review.png)
 
 You can access the Review Project page by clicking either of these alerts.
 
@@ -26,15 +26,15 @@ You can access the Review Project page by clicking either of these alerts.
 
 The Review Project page provides a PI with a summary of the project, including the last time publications and grants were updated and a list of current active users on the project. If this information is still accurate and current, simply click the check box verifying the information and click Submit.
 
-![Review Checkbox](_media/project_and_allocation_management/review_checkbox.png ':size=50%')
+![Review Checkbox](_media/project_and_allocation_management/review_checkbox.png)
 
 If you have NOT updated your publications or grant information in the last year, a text box will appear on the Review Project page requiring you to enter a statement explaining this. We understand you may not have this data to provide and this will not prevent your account from being renewed. However, we do require an explanation:
 
-![Review Explanation](_media/project_and_allocation_management/review_explanation.png ':size=50%')
+![Review Explanation](_media/project_and_allocation_management/review_explanation.png)
 
 Once the project review is complete, you will see a green notification banner with "Project reviewed successfully" at the top of the page and a "project review pending" label in the Project Detail page:
 
-![Project Reviewed](_media/project_and_allocation_management/project_reviewed_successfully.png ':size=50%')
+![Project Reviewed](_media/project_and_allocation_management/project_reviewed_successfully.png)
 
 ### Review approval
 

@@ -1,5 +1,5 @@
 :root {
-      --base-font-size: 14px;
+      --base-font-size: 16px;
       --theme-color: rgb(232, 35, 43);
       --content-max-width: 100em;
       --sidebar-width: 25rem;
@@ -47,4 +47,12 @@ nav.app-nav a.active {
 
 a.github-corner{
       position: fixed;
+}
+img {
+    padding: 70px 0px 70px 0px;
+    display: block;
+    margin: auto;
+}
+.markdown-section img {
+    max-width: 850px;
 }

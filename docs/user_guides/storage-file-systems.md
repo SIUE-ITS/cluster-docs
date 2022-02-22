@@ -76,4 +76,4 @@ miwalls@cc-head-01:~$ /software/tools/quota_check.py
 
 If you exceed the limits, you will receive a `disk quota exceeded` error and message when reaching 90% full on the [SIUE OnDemand](https://ondemand.hpc.siue.edu/) home page.
 
-![OnDemand Quota Limit Warning](_media/ondemand/quota-limit-warning.png ':size=50%')
+![OnDemand Quota Limit Warning](_media/ondemand/quota-limit-warning.png)

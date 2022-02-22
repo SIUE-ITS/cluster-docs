@@ -2,7 +2,7 @@
 
 The following graphic depicts the SIUE ITS Cyberinfrastructure and how different systems interact with one another:
 
-![cyberinfrastructure](user_guides/_media/cyberinfrastructure.png ':size=50%')
+![cyberinfrastructure](user_guides/_media/cyberinfrastructure.png)
 
 ### Computing resources
 

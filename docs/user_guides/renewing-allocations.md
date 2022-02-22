@@ -6,11 +6,11 @@ All SIUE resource allocations expire at some point, typically a year after creat
 
 If you have already completed your [project renewal](user_guides/yearly-project-renewal.md), you can renew your allocation by clicking on the "expires in __ days" label next to the allocation, either on the user portal home page or on the Project Detail page for the project the allocation is associated with:
 
-![Allocations Expiring Home](_media/project_and_allocation_management/allocations_expiring_home.png ':size=50%')
+![Allocations Expiring Home](_media/project_and_allocation_management/allocations_expiring_home.png)
 
 This will bring you to the Allocation Detail page, where you can again click on the yellow "expires in __ days" label:
 
-![Allocation Expiring Detail](_media/project_and_allocation_management/allocation_expiring_detail.png ':size=50%')
+![Allocation Expiring Detail](_media/project_and_allocation_management/allocation_expiring_detail.png)
 
 This will show you a list of all users on the allocation and you can choose whether to keep them active, remove them from only the allocation, or remove them from your project altogether:
 

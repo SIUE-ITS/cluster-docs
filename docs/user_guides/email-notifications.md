@@ -9,6 +9,6 @@ SIUE users are automatically subscribed to receive notifications from the user p
 
 Users can turn off these notifications, if desired. To do so, log in to the user portal and click on your project to view its details. Uncheck the check box beside your name under the "Enable Notifications" column:
 
-![Disable Email Notifications](_media/project_and_allocation_management/disable_email_notifications.png ':size=50%')
+![Disable Email Notifications](_media/project_and_allocation_management/disable_email_notifications.png)
 
 > Note: PIs and any managers of a project are required to receive email notifications.

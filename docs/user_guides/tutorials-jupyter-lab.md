@@ -6,7 +6,7 @@
 
 Start a jupyter lab interactive app on the cluster.
 
-![Interactive App](_media/tutorials/jupyter-lab-interactive-app.png ':size=50%')
+![Interactive App](_media/tutorials/jupyter-lab-interactive-app.png)
 
 Set all of the required fields typically, `Account` can be blank that way it uses your default account.
 `Slurm Partition` is set to the type of node you would like to run this typically is set to `CPU`.
@@ -14,9 +14,9 @@ Set all of the required fields typically, `Account` can be blank that way it use
 `Cores` should be set to as many cores as needed typically this will be set to less than `32`.
 `Nodes` should be set to `1` if you are testing or just getting started. Setting to two or more typically should only be ran as a direct Slurm batch job. Lastly click `Launch` to start the Jupyter Lab instance.
 
-![Launch](_media/tutorials/jupyter-lab-launch.png ':size=50%')
+![Launch](_media/tutorials/jupyter-lab-launch.png)
 
-![Connect](_media/tutorials/jupyter-lab-connect.png ':size=50%')
+![Connect](_media/tutorials/jupyter-lab-connect.png)
 
 ### User kernel
 
@@ -26,7 +26,7 @@ It is very typical that you will need a custom user kernel in order to install p
 
 This can be done from any shell connected to the cluster as long as you are in your home directory. Below is an example of opening a terminal from within Jupyter Notebook
 
-![Terminal](_media/tutorials/jupyter-lab-terminal.png ':size=50%')
+![Terminal](_media/tutorials/jupyter-lab-terminal.png)
 
 #### Create a user kernel
 
@@ -44,13 +44,13 @@ jupyter kernelspec list
 
 Example of what you will see as the virtual environment is created and added to the Jupyter kernel list
 
-![Virtual Environment](_media/tutorials/jupyter-lab-terminal-venv.png ':size=50%')
+![Virtual Environment](_media/tutorials/jupyter-lab-terminal-venv.png)
 
 #### Changing kernels
 
 ?> Note: Refresh the page in order for the newly created kernels to show up.
 
-![Changing Kernel](_media/tutorials/jupyter-lab-change-kernel.png ':size=50%')
+![Changing Kernel](_media/tutorials/jupyter-lab-change-kernel.png)
 
 #### New file specific kernel
 
@@ -58,13 +58,13 @@ Example of what you will see as the virtual environment is created and added to 
 
 Create a new Jupyter file utilizing the new kernel you created in previous steps in this case called `myvenv`.
 
-![New File Kernel](_media/tutorials/jupyter-lab-kernel-new.png ':size=50%')
+![New File Kernel](_media/tutorials/jupyter-lab-kernel-new.png)
 
 #### Installing packages from terminal
 
 Open a terminal. This can also be done from any shell connected to the cluster just make sure to source the virtual environment before running pip.
 
-![Terminal](_media/tutorials/jupyter-lab-terminal.png ':size=50%')
+![Terminal](_media/tutorials/jupyter-lab-terminal.png)
 
 In the terminal source your environment
 
@@ -77,11 +77,11 @@ pip install {package}
 
 Below is an example of the output seen by running the above for `myvenv`.
 
-![Install Example Terminal](_media/tutorials/jupyter-lab-terminal-install-example.png ':size=50%')
+![Install Example Terminal](_media/tutorials/jupyter-lab-terminal-install-example.png)
 
 
 #### Installing packages from within a file
 
 Simply type `pip install {package}` to install a package
 
-![Install Example File](_media/tutorials/jupyter-lab-kernel-new-install-example.png ':size=50%')
+![Install Example File](_media/tutorials/jupyter-lab-kernel-new-install-example.png)

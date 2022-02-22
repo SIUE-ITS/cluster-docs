@@ -18,13 +18,13 @@ Storage space in the /project and /bulk file systems. PIs can request up to 1 TB
 
 First, click on the name of the project that you are requesting an allocation for to be taken to that project's Project Detail page on the [user portal home page](https://coldfront.hpc.siue.edu).
 
-![Requesting an Allocation](_media/project_and_allocation_management/requesting_an_allocation.gif ':size=50%')
+![Requesting an Allocation](_media/project_and_allocation_management/requesting_an_allocation.gif)
 
 To request a new allocation for a resource, click on the green Request Resource Allocation button on the Project Detail page.
 
 You will then be taken to the Request New Allocation page:
 
-![Request New Allocation](_media/project_and_allocation_management/request_new_allocation.png ':size=50%')
+![Request New Allocation](_media/project_and_allocation_management/request_new_allocation.png)
 
 The Resource drop-down list contains the following resource options:
 
@@ -35,7 +35,7 @@ Select the resource you'd like access to and provide a justification for access 
 
 If required, select the users on your project for which you'd like to grant access to this allocation.
 
-![Allocation Add Users](_media/project_and_allocation_management/new_allocation_add_users.png ':size=50%')
+![Allocation Add Users](_media/project_and_allocation_management/new_allocation_add_users.png)
 
 Click the Submit button when done.
 
@@ -43,19 +43,19 @@ Click the Submit button when done.
 
 Your allocation will now display on your Project Detail page with a status of "New".
 
-![New Allocation Detail](_media/project_and_allocation_management/new_allocation_detail.png ':size=50%')
+![New Allocation Detail](_media/project_and_allocation_management/new_allocation_detail.png)
 
 #### Allocation Status: Active
 
 Once verified and approved by the SIUE, the status will be changed to "Active" and you will have access to that resource for your project:
 
-![Active Allocation Detail](_media/project_and_allocation_management/active_allocation_detail.png ':size=50%')
+![Active Allocation Detail](_media/project_and_allocation_management/active_allocation_detail.png)
 
 ### Project Review
 
 If you have not completed a project review in the last 365 days, you will be required to do this before requesting any allocations. You will see this error:
 
-![Allocation Project Review](_media/project_and_allocation_management/new_allocation_project_review.png ':size=50%')
+![Allocation Project Review](_media/project_and_allocation_management/new_allocation_project_review.png)
 
 More information about the project review process can be found [here](user_guides/yearly-project-renewal.md).
 

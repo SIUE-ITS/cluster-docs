@@ -1,4 +1,4 @@
-![logo](_media/logo.png ':size=50%')
+![logo](_media/logo.png)
 
 **Documentation for SIUE's HPC systems.**
 

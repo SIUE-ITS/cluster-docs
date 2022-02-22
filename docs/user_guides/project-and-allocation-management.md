@@ -10,7 +10,7 @@ The SIUE User Portal uses ColdFront, an open source resource allocation manageme
 
 The user portal handles the management of 3 components: projects, allocations, and resources. The graphic below shows how these components interact on SIUE systems:
 
-![ColdFront overview](_media/project_and_allocation_management/coldfront_overview.png)
+![ColdFront overview#center](_media/project_and_allocation_management/coldfront_overview.png)
 
 For more detailed information and step-by-step instructions, see the SIUE User Portal User Guides below.
 

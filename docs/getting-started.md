@@ -24,7 +24,7 @@ Campus is a high-performance computing cluster, which is a collection of compute
 
 The following graphic depicts the SIUE ITS Cyberinfrastructure and how different systems interact with one another:
 
-![cyberinfrastructure](user_guides/_media/cyberinfrastructure.png ':size=50%')
+![cyberinfrastructure#center](user_guides/_media/cyberinfrastructure.png)
 
 For detailed information on the campus cluster, see our [Getting Started](user_guides/getting-started.md) user guide and our [System Information](system-information) page.
 

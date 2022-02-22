@@ -1,6 +1,6 @@
 # Add Billing Information
 
-While most general-use resources offered by the SIUE are free for USC students, faculty, and staff, there are some cases where payment is required. These include resource requests project storage that exceeds the 1 TB maximum that each PI receives at no cost.
+While most general-use resources offered by the SIUE are free for students, faculty, and staff, there are some cases where payment is required. These include resource requests project storage that exceeds the 1 TB maximum that each PI receives at no cost.
 
 If you have PI permissions, you can update your default billing information in your user profile, which is accessed by clicking your username in the top right corner of the user portal's header:
 

@@ -11,11 +11,11 @@ From the home page, click on the project that you want to add a user to.
 
 On the Project Detail page, click "Add Users".
 
-![Allocation Add Users](_media/project_and_allocation_management/add_users_button.png ':size=50%')
+![Allocation Add Users](_media/project_and_allocation_management/add_users_button.png)
 
 You will be sent to a page that allows you to search the SIUE's system by username.
 
-![Add Users Search](_media/project_and_allocation_management/add_users_search.png ':size=50%')
+![Add Users Search](_media/project_and_allocation_management/add_users_search.png)
 
 > Note: The SIUE username is the first part of the user's SIUE email address (e.g., in user@siue.edu the username would be "user"). If you do not know the user's username, you can look it up on the [SIUE Online Directory](https://www.siue.edu/search/people.shtml).
 
@@ -27,7 +27,7 @@ If found in SIUE's system, the full names and email addresses of the users will 
 
 Next, make sure the allocations, or "subscriptions", you want the user to have access to are selected. Selecting an allocation/subscription tells the system which resource (cluster and storage) to give the user access to. **If you do NOT select an allocation, the user will not be able to use any SIUE resources other than the user portal**.
 
-![Add Users to Project and Allocation](_media/project_and_allocation_management/add_users_project_allocation.png ':size=50%')
+![Add Users to Project and Allocation](_media/project_and_allocation_management/add_users_project_allocation.png)
 
 ### Changing user roles
 
@@ -37,7 +37,7 @@ At this point, you have the option of selecting a role for the user. The User ro
 
 Click the "Add Selected Users to Project" button when done. You will see these users have been added to your project now:
 
-![Selected Users Added](_media/project_and_allocation_management/selected_users_added.png ':size=50%')
+![Selected Users Added](_media/project_and_allocation_management/selected_users_added.png)
 
 Users must be added to a project to be added to that project's allocation. However, all users added to a project do not need to be added to every allocation held for that project.
 
@@ -47,10 +47,10 @@ Users must be added to a project to be added to that project's allocation. Howev
 
 You can see all users that have access to an allocation on the Allocation Detail page, which can be found by clicking the folder icon next to the allocation name:
 
-![Allocation Detail Users Added](_media/project_and_allocation_management/allocation_detail_users_added.png ':size=50%')
+![Allocation Detail Users Added](_media/project_and_allocation_management/allocation_detail_users_added.png)
 
 If you'd like to add a user from your project to an allocation they don't currently have access to, you can do this from the Allocation Detail page:
 
-![Allocation Detail Users Added](_media/project_and_allocation_management/allocation_detail_add_users_button.png ':size=50%')
+![Allocation Detail Users Added](_media/project_and_allocation_management/allocation_detail_add_users_button.png)
 
 Click the "Add Users" button. Any users in your project that do not already have access to this allocation will be listed and available to be added.
