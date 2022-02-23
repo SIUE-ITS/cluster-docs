@@ -4,12 +4,16 @@ If you want to contribute to the cluster docs project and make it better, your h
 
 ### Guides to contributing
 
-- [Contribute using the Github Website](contributing/github-website.md)
+#### Github
+
+- [Contribute using the Github Website](contributing/github/website.md)
   - Recommended workflow for beginners to contribute by using the Github website allowing you to add and edit files directly from a browser.
   - Type up the content in a separate location outside of the Github file editor (i.e. Notepad), then copy and paste to the new file from the guide linked above.
 
-- [Contribute using the local Git command line](contributing/github-cli.md)
+- [Contribute using the local Git command line](contributing/github/cli.md)
   - Recommended for advanced users with knowledge of Git commands or users that would like to learn about using purely command line.
+
+#### Document Editor
 
 - Contribute using an application like Microsoft Office Word or Notepad
   - Recommended for users who would like to contribute without using or learning Git.

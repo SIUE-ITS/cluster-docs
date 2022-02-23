@@ -48,11 +48,13 @@ nav.app-nav a.active {
 a.github-corner{
       position: fixed;
 }
-img {
+.markdown-section img {
+    max-width: 850px;
     padding: 70px 0px 70px 0px;
     display: block;
     margin: auto;
 }
-.markdown-section img {
-    max-width: 850px;
+.sidebar-title {
+    font-size:30px !important;
+    font-family: var(--heading-h1-font-family, var(--heading-font-family));
 }
