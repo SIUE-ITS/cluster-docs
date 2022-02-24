@@ -1,5 +1,5 @@
 # Running Jobs on SIUE Systems
-This guide describes how to reserve compute resources and run and monitor jobs on the SIUE's high-performance computing (HPC) clusters, including campus cluster, using the Slurm job scheduler.
+This guide describes how to reserve compute resources and run and monitor jobs on SIUE's high-performance computing (HPC) clusters, including campus cluster, using the Slurm job scheduler.
 
 This guide describes how to run and monitor jobs using the command line. Jobs can also be run and monitored using SIUE OnDemand, a web-based access point for SIUE systems. See the [Getting Started with SIUE OnDemand](user_guides/hpc_basics/getting_started_ondemand.md) user guide for more information.
 

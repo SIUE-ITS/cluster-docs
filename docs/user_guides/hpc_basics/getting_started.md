@@ -1,10 +1,10 @@
 # Getting Started
-This guide will help you get started with the SIUE's campus computing cluster by instructing you on how to connect, log in, transfer data, and run jobs.
+This guide will help you get started with SIUE's campus computing cluster by instructing you on how to connect, log in, transfer data, and run jobs.
 
 An SIUE account is required to log in to and use SIUE resources.
 
 ### Overview
-The campus cluster (CC) is the SIUE's general use high-performance computing cluster, which is a collection of computers and disk arrays that are connected via fast networks. CC allows SIUE researchers to perform computing tasks, like data analyses and simulations, on a larger scale than is possible with a laptop or lab computer.
+The campus cluster (CC) is SIUE's general use high-performance computing cluster, which is a collection of computers and disk arrays that are connected via fast networks. CC allows SIUE researchers to perform computing tasks, like data analyses and simulations, on a larger scale than is possible with a laptop or lab computer.
 
 The following graphic depicts the SIUE ITS cyberinfrastructure and how different systems interact with one another:
 
@@ -14,7 +14,7 @@ The following graphic depicts the SIUE ITS cyberinfrastructure and how different
 
 When using CC, you will notice several differences from your desktop or laptop environment:
 
-* The interface is command-line driven (no graphical user interface with the exception of using VMs or OnDemand interactive desktop apps)
+* The interface is command-line driven (no graphical user interface with the exception of using VMs or OnDemand interactive, files, or jobs app.)
 * CC uses the Ubuntu Linux operating system (not macOS or Windows)
 * You submit your programs to a remote batch processing system, or job scheduler, to run them
 
@@ -31,6 +31,8 @@ The workflow for using CC typically consists of the following steps:
 
 ### Logging in to the login node
 To log in to the CC login node (also known as the head node), you will need to use a secure shell client. This is a small application that enables you to connect to a remote computer via SSH (Secure Shell), a cryptographic network protocol for securely operating network services. You will need your SIUE e-ID and password to SSH into the login node.
+
+> Note: connecting through SSH requires being on SIUE's campus networks or connecting through VPN. If not on campus or connecting through VPN it is recommended to use [Shell access through OnDemand](user_guides/hpc_basics/getting_started_ondemand) for more information
 
 <details>
   <summary>
@@ -54,9 +56,9 @@ To log in to the CC login node (also known as the head node), you will need to u
     <b>SSH login: Window</b>
   </summary>
 
-> Windows users may need to download and install a third-party SSH client to connect to CC. A popular client is PuTTY, which is available through the [developer’s website](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). Another popular option is MobaXterm, which also provides file transfer capabilities. It is also available through the [developer's website](https://mobaxterm.mobatek.net/download-home-edition.html). On Windows 10, there is a natively available Windows Terminal that has a [built-in SSH client](https://docs.microsoft.com/en-us/windows/terminal/tutorials/ssh).
+> Windows users may need to download and install a third-party SSH client to connect to CC. A popular client is PuTTY, which is available through the [developer’s website](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html). Another popular option is MobaXterm, which also provides file transfer capabilities. It is also available through the [developer's website](https://mobaxterm.mobatek.net/download-home-edition.html). On Windows 10/11, there is a natively available Windows Terminal that has a [built-in SSH client](https://docs.microsoft.com/en-us/windows/terminal/tutorials/ssh).
 >
-> To connect using Windows Terminal, open a new terminal window and enter:
+> To connect using Windows PowerShell, open a new PowerShell window and enter:
 >
 > ```ssh <username>@login.hpc.siue.edu```
 >
@@ -82,7 +84,9 @@ If you are having difficulty using your SIUE e-ID and/or password, please contac
 
 ### Organizing files
 **File systems**  
-There are three directories where SIUE users can store files and run programs: home, project, and scratch.
+There are three directories where SIUE users can store files and run programs: home, project, bulk, and scratch.
+
+!> No directories are backed up by ITS. Users are required to have their own backup mechanisms.
 
 <details>
   <summary>
@@ -96,25 +100,42 @@ There are three directories where SIUE users can store files and run programs: h
 >```/home/<e-ID>```
 >
 > To easily switch to your home directory, enter the command `cd` from the directory you're in.
->
->We keep one week of daily snapshots for /home. You can think of these snapshots as semi-backups, meaning that if you accidentally deleted some data we would be able to recover it within one week. If the file was created and deleted within a one-day period, then the snapshot might not be recoverable. You should always keep extra backups of your important data and other files because of this.
 
 </details>
+
 <details>
   <summary>
     <b>Project file system</b>
   </summary>
 
-> Project directories are by request only. To request a project directory contact its-cluster-support@siue.edu.
+> Project directories are by request only. To request a project directory request a [project storage resource allocation](user_guides/project_and_allocation_management/request_new_allocation).
 >
 >
-> Each project member has access to their project's directory, where they can store data, scripts, and related files. The project file system should be used for most of your SIUE work, It's also where you can collaborate with your research project. Users can be affiliated and have access to multiple project directories.
+> Each project member has access to their project's project directory, where they can store data, scripts, and related files. The project file system should be used for most of your SIUE work, It's also where you can collaborate with your research project. Users can be affiliated and have access to multiple project directories.
 >
 > A project directory can be located by typing:
 >
-> ```/project/<project_name>```
+> ```/project/<project>```
 >
-> `<project_name>` is the unique name requested by the owner.
+> `<project>` is the unique name generated by the user portal type `projects` to see your projects or go to [User Portal Projects Page](https://coldfront.hpc.siue.edu/project/) and click the id of the project which you are trying to find the directories.
+
+</details>
+
+<details>
+  <summary>
+    <b>Bulk file system</b>
+  </summary>
+
+> Bulk directories are by request only. To request a bulk directory request a [bulk storage resource allocation](user_guides/project_and_allocation_management/request_new_allocation).
+>
+>
+> Each project member has access to their project's bulk directory, where they can store larger files and archives. The bulk file system should be used for work requiring large amounts of storage,  Users can be affiliated and have access to multiple bulk directories.
+>
+> A bulk directory can be located by typing:
+>
+> ```/bulk/<project>```
+>
+> `<project>` is the unique name generated by the user portal type `projects` to see your projects or go to [User Portal Projects Page](https://coldfront.hpc.siue.edu/project/) and click the id of the project which you are trying to find the directories.
 
 </details>
 
@@ -133,7 +154,7 @@ There are three directories where SIUE users can store files and run programs: h
 >
 > `/scratch` has a capacity of 500GB to 1TB depending on the node. These directories should only be used for temporary files that are dependent on a currently running job.
 >
-> ?> Note: The login node does not have a `/scratch` directory.
+> ?> Note: The login node does have a `/scratch` directory but should not be used.
 
 </details>
 
@@ -203,7 +224,7 @@ Once you are logged in, you can use software, work with files, run brief tests, 
     <b>Installing your own software</b>
   </summary>
 
-> Researchers are encouraged to install any software, libraries, and packages necessary for their work. Consult the software's documentation on how to install from source or with pre-built binaries. Additionally, for a more controlled and portable computing environment, consider using a [Singularity container](https://singularity.hpcng.org/user-docs/master/) for your software builds.
+> Researchers are encouraged to install any software, libraries, and packages necessary for their work. Consult the software's documentation on how to install from source or with pre-built binaries. Additionally, for a more controlled and portable computing environment, consider using a [Singularity container](https://singularity.hpcng.org/user-docs/master/) for your software builds. Singularity containers can be requested to be built by ITS Cyberinfrastructure team by contacting its-cluster-support@siue.edu.
 >
 > For more information on installing software, see the [Software and Programming user guides](user_guides/software_and_programming/README.md).
 
@@ -212,6 +233,8 @@ Once you are logged in, you can use software, work with files, run brief tests, 
 
 ### Jobs
 A job consists of all the data, commands, scripts, and programs that will be used to obtain results.
+
+> Below references `<project>` your current projects can be found by the `projects` command note the `slurm_accounts` column for what you should set the `--account` to.
 
 <details>
   <summary>
@@ -238,7 +261,7 @@ A job consists of all the data, commands, scripts, and programs that will be use
 >
 > For example, to request four processors for one hour, enter:
 >
-> ```salloc --ntasks=4 --time=1:00:00 --account=<account_id>```
+> ```salloc --ntasks=4 --time=1:00:00 --account=<project>```
 >
 > Be sure to use the correct account for your jobs. Without the `--account` option, your default account will be used. This is fine if you only have one project account.
 >
@@ -265,7 +288,7 @@ A job consists of all the data, commands, scripts, and programs that will be use
 > #SBATCH --cpus-per-task=2
 > #SBATCH --mem-per-cpu=1GB
 > #SBATCH --time=1:00:00
-> #SBATCH --account=<account_id>
+> #SBATCH --account=<project>
 >
 > module load anaconda3
 > python3 script.py
@@ -303,10 +326,10 @@ A job consists of all the data, commands, scripts, and programs that will be use
 >
 > Each job is assigned a unique job identifier. It is sufficient to use only the numeric portion of the job ID when referencing a job or submitting a ticket.
 >
-> In the example below, the job 3271 has been placed in the "main" partition (PARTITION) based on its requested time of 1 hour:
+> In the example below, the job 3271 has been placed in the "general" partition (PARTITION) based on its requested time of 1 hour:
 >
 > ```
-> squeue -u ttrojan
+> squeue -u cougar
 > JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
 > 3271      main   my.job    cougar  R      35:58      1 cc-cpu-01
 > ```
