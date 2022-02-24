@@ -1,5 +1,5 @@
 # Campus Cluster Resource Overview
-SIUE's general use high-performance computing cluster, CC, has over 15 compute nodes available for users to run their jobs on.
+SIUE's general use high-performance computing cluster, campus, has over 15 compute nodes available for users to run their jobs on.
 
 For general SIUE system specifications, see our [Getting Started](user_guides/hpc_basics/getting_started.md) page.
 
@@ -13,7 +13,7 @@ There are a few Slurm partitions available on the campus cluster, each with a se
 
 Partition limits are enforced using [Slurm Quality of Service (QOS)](https://slurm.schedmd.com/qos.html) for each job submitted. The default QOS for each partition is listed above in the partitions table above. The list of available partitions are shown below with their descriptions.
 
-?> Note: Other partitions exist for PI and Department nodes where permission to use them is only given by their respective owners. Use `sinfo` to see the other partitions and nodes. To see the Allowed QOS for those partitions run `scontrol show partition {partition}` where `{partition}` should be changed to the desired partition from `sinfo` look at `AllowQos` or pipe output to `grep AllowQos`. Typically on the other partitions the QOS is automatically set to the name of the partition configured by the Cyberinfrastructure team.
+?> Note: Other partitions exist for PI and Department nodes where permission to use them is only given by their respective owners. More information is [below](#department-and-pi-partitions)
 
 !> Warning: Jobs submitted to the `preempt` partition will potentially be cancelled and requeued at any time. You can specify if you want jobs to cancel and not requeue by including `#SBATCH -q cancel` to batch files or append `-q cancel` to cli commands. This only works for partition `preempt`. You will not want jobs to `requeue` (default) if the code runs for longer than a few hours and doesn't restart from where it last left off see [checkpointing](/user_guides/software_and_programming/checkpointing.md) for more information. Also for more information about `preempt` see the [Slurm Preemption](https://slurm.schedmd.com/preempt.html) page.
 
@@ -57,7 +57,7 @@ Below is a list of the QOS and their respective limits enforced. PreemptMode `cl
 
 ### Department and PI Partitions
 
-Nodes can be purchased by either departments or principal investigators (subject to availability and datacenter limits). The nodes purchased are directly assigned to the owners. The owners get full access to the nodes with no limits enforced. This is done by a partition being added to Slurm specifically assigned to the owned nodes. A QOS is also added which allows access to that partition. The QOS is assigned to the owners once requested as a [new allocation is request](user_guides/project_and_allocation_management/request_new_allocation.md). The owners can then add other users to the QOS so they can use the purchased nodes.
+Nodes can be purchased by either departments or principal investigators (subject to availability and datacenter limits). The nodes purchased are directly assigned to the owners. The owners get full access to the nodes with no limits enforced. This is done by a partition being added to Slurm specifically assigned to the owned nodes. A QOS is also added which allows access to that partition. The QOS is assigned to the owners an [allocation is requested](user_guides/project_and_allocation_management/request_new_allocation.md). The owners can then [add other users](user_guides/project_and_allocation_management/adding_users.md) to the QOS so they can use the purchased nodes.
 
 Below shows example output and commands for viewing a partition of this type and understanding how it works. Note that `{owner}` typically would be the `e-ID` of the nodes association whether PI or department. Also `{project}` is typically taken from the output of `projects` where it would be in below example `{owner}_1`
 
@@ -82,11 +82,13 @@ Account|User|QOS|
 | 1  |     Example   |     Example project for docs.          | {owner} | /project/{project} | {owner} (Cluster Partition) |  {project}     | project_{project} |
 ```
 
+?> PI and Department partitions have to be directly specified in the job for example `{owner}` partition would be `-p {owner}` the QOS will be automatically added and is not required.
+
 ### Summary
 
 There is a lot of important information above but some key takeaways are listed below.
 
 - Typically only specifying partition is required if you are running a lot of jobs at which point specifying the `preempt` partition (`-p preempt`) is required once the `general` partition limits for your account and user (specified by `general` qos) is reached.
+- Specifying partition is required if using Department and PI specific partitions see above.
 - The only time you really need to use a specific QOS is when you are doing debugging (`-q debug`) or want `preempt` partition jobs to cancel ( `-q cancel` and `-p preempt`).
 - Running gpu jobs (`--gres=gpu*`) or setting constraint to `gpu` and `preempt` partition (`-C gpu` and `-p preempt`) will automatically handle node selection and limit jobs to the GPU capable nodes.
-- PI and Department partitions have to be directly specified in the job for example `{owner}` partition would be `-p {owner}` the QOS will be automatically added and is not required.
