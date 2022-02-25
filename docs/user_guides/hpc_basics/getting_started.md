@@ -211,7 +211,7 @@ Once you are logged in, you can use software, work with files, run brief tests, 
 >
 > To load software based on this list, such as Conda, enter the command:
 >
-> ```module load anaconda3```
+> ```module load conda```
 >
 > This loads the default version of Python. Then, for example, enter `python` to begin an interactive Python session.
 >
@@ -290,7 +290,7 @@ A job consists of all the data, commands, scripts, and programs that will be use
 > #SBATCH --time=1:00:00
 > #SBATCH --account=<project>
 >
-> module load anaconda3
+> module load conda
 > python3 script.py
 > ```
 >

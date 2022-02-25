@@ -213,7 +213,7 @@ There are many tools available to transfer files to and from SIUE systems and en
 
 For file servers that use the SFTP protocol, you can use the `sftp` program to transfer files. Examples of how to use `sftp` can be found in the previous section on `sftp` above, with the only difference being the remote server that you interact with.
 
-For file servers that use FTP, SFTP, or other FTP-like protocols, you can use the `lftp` module to transfer files: `module load lftp`. The `lftp` program has a similar interface and commands to `sftp` but has additional features, including multi-connection and parallel downloads. For more information and available options, enter `man lftp` or see the official [lftp documentation](https://lftp.yar.ru/).
+For file servers that use FTP, SFTP, or other FTP-like protocols, you can use the `lftp` module to transfer files. The `lftp` program has a similar interface and commands to `sftp` but has additional features, including multi-connection and parallel downloads. For more information and available options, enter `man lftp` or see the official [lftp documentation](https://lftp.yar.ru/).
 
 The `wget`, `curl`, and `aria2c` programs can also be used to non-interactively download files from FTP or SFTP servers. The `sftp`, `lftp`, and `curl` programs can also be used to non-interactively upload files to FTP or SFTP servers.
 
@@ -282,7 +282,7 @@ Enter `man aria2c` or `aria2c --help` for more information and to view all avail
 
 #### Using rclone
 
-For cloud storage, you can use the `rclone` module to transfer files: `module load rclone`. This requires some initial setup and configuration. For more information, see the guide for [Transferring Files Using Rclone](user_guides/data_management/transfer_files_rclone.md).
+For cloud storage, you can use the `rclone` module to transfer files. This requires some initial setup and configuration. For more information, see the guide for [Transferring Files Using Rclone](user_guides/data_management/transfer_files_rclone.md).
 
 </details>
 

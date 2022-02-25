@@ -81,7 +81,7 @@ Below is an example batch job script that runs a Python script:
 #SBATCH --time=1:00:00
 #SBATCH --account=<project>
 
-module load anaconda3
+module load conda
 python script.py
 ```
 
@@ -111,7 +111,7 @@ Make sure to use the correct account for your jobs (`<project>`). Without the `-
 The next set of lines:
 
 ```
-module load anaconda3
+module load conda
 ```
 
 loads the required software modules (module load ...).

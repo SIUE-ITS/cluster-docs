@@ -2,18 +2,6 @@
 
 Rclone is an open-source, command-line utility for managing files in cloud storage. Rclone allows users to sync files from a local drive or location to a cloud storage provider like Google Drive, Dropbox, OneDrive, etc. This is useful for backing up, downloading, and synchronizing files stored on a personal computer to more easily accessible cloud solutions.
 
-### Loading the rclone module
-
-Begin by logging in. You can find instructions for this in the [Getting Started](user_guides/hpc_basics/getting_started.md) user guides.
-
-On SIUE clusters, rclone is already available as a software module. To use rclone, first load the corresponding module:
-
-```
-module load rclone
-```
-
-After loading the rclone module, all rclone commands will become accessible. A list of current commands can be found [here](https://rclone.org/commands/).
-
 ### Creating an rclone remote connection
 
 Usage of each cloud service requires the setup of a remote connection, or "remote", to that service.

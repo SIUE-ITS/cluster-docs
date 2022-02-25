@@ -195,7 +195,7 @@ To uncompress a .gz file, add the `-d` option:
 gzip -dv <filename>.gz
 ```
 
-Enter `gzip --help` to view all available options. In addition, the `pigz` module is a parallel implementation of `gzip` that provides faster compression and uncompression times: `module load pigz`. It can be used as a drop-in replacement for `gzip` commands.
+Enter `gzip --help` to view all available options. In addition, the `pigz` module is a parallel implementation of `gzip` that provides faster compression and uncompression times. It can be used as a drop-in replacement for `gzip` commands.
 
 #### Compressing with xz
 For better compression ratios or for maximum compression, use `xz` instead of `gzip`. With `xz` you can also use multiple cores to speed up the compression time. For example, to compress using 4 cores, add the `-T4` option:
