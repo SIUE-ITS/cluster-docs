@@ -81,7 +81,7 @@ You can download MobaXterm from the vendor website at https://mobaxterm.mobatek.
 
 To both transfer and modify (e.g., delete) files, use SFTP with MobaXterm (instead of SCP).
 
-To begin, instead of using SSH, click the "Session" icon on the top left corner (or, Sessions > New Session from the top menu). Click "SFTP" when asked to choose a session type. Enter dtn.hpc.siue.edu "Remote Host" and enter your SIUE e-ID as your username. Keep the port as "22". You can choose to save these options as a shortcut under "Bookmark Settings." Lastly, click OK.
+To begin, instead of using SSH, click the "Session" icon on the top left corner (or, Sessions > New Session from the top menu). Click "SFTP" when asked to choose a session type. Enter `dtn.hpc.siue.edu` "Remote Host" and enter your SIUE e-ID as your username. Keep the port as "22". You can choose to save these options as a shortcut under "Bookmark Settings." Lastly, click OK.
 
 ![MobaXterm login](_media/transfer_files_gui/mobaxterm-session.png))
 

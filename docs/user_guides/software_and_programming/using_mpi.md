@@ -6,6 +6,7 @@ MPICH
 OpenMPI
 MVAPICH2
 Intel MPI
+
 These four MPI implementations are stable with multi-threaded programs and, prior to the advent of the Unified Communication X (UCX) framework, the four MPI libraries exhibited fairly similar performance. The UCX framework is a collaboration between industry, laboratories, and academia formed to create an open-source, production grade communication framework for data-centric and high-performance applications. UCX is performance-oriented, enabling a low overhead in communication paths, allowing a near native-level performance while establishing a cross-platform unified API supporting various network Host Card Adapters and processor technologies. Please note that CARC clusters use InfiniBand networks.
 
 Setting up MPI
