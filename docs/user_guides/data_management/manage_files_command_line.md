@@ -29,7 +29,7 @@ cp /source/path /destination/path
 For example, to copy a directory on /scratch to /project, use:
 
 ```
-cp -r /scratch/cougar/dir /project/cougar/
+cp -r /scratch/cougar/dir /project/cougar_1/
 ```
 
 The `-r` option, recursive mode, is needed when copying directories. To print a log of the copying, add the `-v` option, which enables verbose mode. To copy multiple files or directories to the same destination, simply include additional source paths in the command. Enter man `cp` or `cp --help` for more information and to view all available options.
@@ -108,7 +108,7 @@ You can change file and directory permissions using `chmod` or `setfacl` command
 For example, to provide read and execute permissions `(r-x)` but not write permission to a project subdirectory for your project group, use:
 
 ```
-chmod 750 /project/cougar/dir
+chmod 750 /project/cougar_1/dir
 ```
 
 If the subdirectory is actually located within another subdirectory, note that the group would also need read and execute permission to the full hierarchy of subdirectories. Granting write permission to a directory allows users to create, modify, or delete files in that directory, also depending on individual file permissions. Enter `man chmod` or `chmod --help` for more information and to view all available options.
@@ -148,7 +148,7 @@ default:other::---
 ```
 
 ### Backing up files
-Although the `/home` and `/project` file systems have some file recovery capabilities, we encourage you to also back up your files elsewhere. There are a few different backup locations to consider:
+The `/home`, `/project`, and `/bulk` file systems do not file recovery capabilities, we encourage you to back up your files elsewhere. There are a few different backup locations to consider:
 
 - Local storage (e.g., external drive)
 - Cloud storage
