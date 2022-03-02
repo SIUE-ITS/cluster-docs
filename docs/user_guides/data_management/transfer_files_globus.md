@@ -165,7 +165,7 @@ The File Manager page is the page you'll use for your file transfers, and it has
 
 In the **Collection** field at the top of either column, you can search for**SIUE ITS Cyberinfrastructure** to access your SIUE directories. By default, you will be in your `/home` directory. You can navigate to other directories (`/project` and `/bulk`) by typing their paths in the **Path** field, or you can enter `/` to view all directories.
 
-?> Tip: Your project directory path is of the form `/project/<PI_username>_<id>`.
+?> Tip: Your project and bulk directory paths are of the form `/project/<PI_username>_<id>` and `/bulk/<PI_username>_<id>`.
 
 In the other column, you can click the Collection field and navigate to the **Your Collections** tab, where you'll find your personal computer's Collection you set up.
 
