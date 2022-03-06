@@ -293,7 +293,7 @@ For cloud storage, you can use the `rclone` module to transfer files. This requi
 
 #### Using git
 
-[Git](https://git-scm.com/) is a source-code management program useful for version control and collaborative development. You can use `git` commands to manage code repositories and push and pull changes to and from CARC systems. We recommend using a central remote repository at services like GitHub, GitLab, or BitBucket. You can develop code directly on CARC systems in a Git repository in one of your directories and use the remote repository to back up and sync changes. You can also develop code on your local computer as part of a Git repository, push changes to a remote repository, log in to SIUE systems, and pull the changes to the corresponding repository located in one of your directories.
+[Git](https://git-scm.com/) is a source-code management program useful for version control and collaborative development. You can use `git` commands to manage code repositories and push and pull changes to and from SIUE systems. We recommend using a central remote repository at services like GitHub, GitLab, or BitBucket. You can develop code directly on SIUE systems in a Git repository in one of your directories and use the remote repository to back up and sync changes. You can also develop code on your local computer as part of a Git repository, push changes to a remote repository, log in to SIUE systems, and pull the changes to the corresponding repository located in one of your directories.
 
 Enter `man git` or `git --help` for more information. For even more information, see the official [Git documentation](https://git-scm.com/doc).
 

@@ -1,6 +1,6 @@
 # Using GPUs
 
-Some programs can take advantage of the unique hardware architecture in a graphics processing unit (GPU). GPUs can be used for specialized scientific computing work, including 3D modelling and machine learning. The CARC's Discovery cluster offers a few different models of GPUs for use with your jobs.
+Some programs can take advantage of the unique hardware architecture in a graphics processing unit (GPU). GPUs can be used for specialized scientific computing work, including 3D modelling and machine learning. SIUE's campus cluster offers a few different models of GPUs for use with your jobs.
 
 ### Requesting GPU resources
 
