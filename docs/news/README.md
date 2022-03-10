@@ -1,4 +1,6 @@
 # News
+---
+?> 03/14/2021 - Cluster testing finished and in production with Coldfront resource and allocation management being required for future cluster usage.
 
 ---
 ?> 04/28/2021 - **CC\*** Cluster available through [SIUE OnDemand](https://ondemand.hpc.siue.edu/)
