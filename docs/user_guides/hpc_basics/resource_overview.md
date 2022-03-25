@@ -1,9 +1,11 @@
 # Campus Cluster Resource Overview
+
 SIUE's general use high-performance computing cluster, campus, has over 15 compute nodes available for users to run their jobs on.
 
 For general SIUE system specifications, see our [Getting Started](user_guides/hpc_basics/getting_started.md) page.
 
 ### Partitions
+
 There are a few Slurm partitions available on the campus cluster, each with a separate job queue. These are general-use partitions available to all researchers. The table below describes the intended purpose for each partition.
 
 | Partition | Description | Default QOS | Allowed QOS |
