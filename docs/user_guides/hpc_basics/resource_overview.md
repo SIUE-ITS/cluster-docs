@@ -41,12 +41,12 @@ If submitting to the `general` partition with `general` or `debug` QOS and `--gr
 
 Below is a list of the QOS and their respective limits enforced. PreemptMode `cluster` means that the job will not be requeued or cancelled. The values below are subject to change at anytime.
 
-| Name | PreemptMode | MaxWall | MaxTRESPerUser | MaxJobsPerUser | MaxSubmitPerUser | MaxTRESPerAccount | MaxJobsPerAccount | MaxSubmitPerAccount |
+| Name | PreemptMode | MaxWall | MaxTRESPerAccount | MaxJobsPerAccount | MaxSubmitPerAccount |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| general | cluster | | cpu=64,gres/gpu=2 | | | | | |
-| debug | cluster | 1 hour | cpu=32,gres/gpu=1 | 1 | 2 | | | |
-| requeue | requeue | | | | | | | |
-| cancel | cancel | | | | | | | |
+| general | cluster | | cpu=64,gres/gpu=2 | | |
+| debug | cluster | 1 hour | cpu=32,gres/gpu=1 | 1 | 2 |
+| requeue | requeue | | | | |
+| cancel | cancel | | | | |
 
 
 #### Descriptions
