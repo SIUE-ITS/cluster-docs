@@ -29,23 +29,28 @@
   - [Yearly Project Renewal](user_guides/project_and_allocation_management/yearly_project_renewal.md)
   - [Request Storage Increase](user_guides/project_and_allocation_management/request_storage_increase.md)
   - [Email Notifications](user_guides/project_and_allocation_management/email_notifications.md)
-  <!-- - [Add Billing Information](user_guides/project_and_allocation_management/adding_billing_information.md) -->
+
+[//]: # (  - [Add Billing Information]&#40;user_guides/project_and_allocation_management/adding_billing_information.md&#41;)
+
 - [Software and Programming](user_guides/software_and_programming/README.md)
   - [Software Module System](user_guides/software_and_programming/software_module_system.md)
-  - [Using Python](user_guides/software_and_programming/using_python.md)
-  - [Using Anaconda](user_guides/software_and_programming/using_anaconda.md)
-  - [Using R](user_guides/software_and_programming/using_r.md)
-  - [Using MATLAB](user_guides/software_and_programming/using_matlab.md)
-  - [Using Julia](user_guides/software_and_programming/using_julia.md)
-  - [Using Singularity](user_guides/software_and_programming/using_singularity.md)
-  - [Using Stata](user_guides/software_and_programming/using_stata.md)
   - [Using GPUs](user_guides/software_and_programming/using_gpus.md)
   - [Using MPI](user_guides/software_and_programming/using_mpi.md)
+
+[//]: # (  - [Using Python]&#40;user_guides/software_and_programming/using_python.md&#41;)
+[//]: # (  - [Using Anaconda]&#40;user_guides/software_and_programming/using_anaconda.md&#41;)
+[//]: # (  - [Using R]&#40;user_guides/software_and_programming/using_r.md&#41;)
+[//]: # (  - [Using MATLAB]&#40;user_guides/software_and_programming/using_matlab.md&#41;)
+[//]: # (  - [Using Julia]&#40;user_guides/software_and_programming/using_julia.md&#41;)
+[//]: # (  - [Using Singularity]&#40;user_guides/software_and_programming/using_singularity.md&#41;)
+[//]: # (  - [Using Stata]&#40;user_guides/software_and_programming/using_stata.md&#41;)
+
 ***
 - [Tutorials](user_guides/tutorials/README.md)
-  - [Batch Job Example](user_guides/tutorials/batch_job_example.md)
   - [Jupyter Lab](user_guides/tutorials/jupyter_lab.md)
-  - [Interactive Matlab](user_guides/tutorials/interactive_matlab.md)
-  - [Containerized Jobs](user_guides/tutorials/containerized_jobs.md)
-  - [Desktop Environment](user_guides/tutorials/desktop_environment.md)
-  - [Anaconda Example](user_guides/tutorials/anaconda_example.md)
+
+[//]: # (  - [Batch Job Example]&#40;user_guides/tutorials/batch_job_example.md&#41;)
+[//]: # (  - [Interactive Matlab]&#40;user_guides/tutorials/interactive_matlab.md&#41;)
+[//]: # (  - [Containerized Jobs]&#40;user_guides/tutorials/containerized_jobs.md&#41;)
+[//]: # (  - [Desktop Environment]&#40;user_guides/tutorials/desktop_environment.md&#41;)
+[//]: # (  - [Anaconda Example]&#40;user_guides/tutorials/anaconda_example.md&#41;)
