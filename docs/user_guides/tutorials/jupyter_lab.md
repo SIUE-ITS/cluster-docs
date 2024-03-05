@@ -6,18 +6,51 @@
 
 Start a jupyter lab interactive app on the cluster.
 
-![Interactive App](_media/jupyter_lab/interactive_app.png)
+![Interactive App](_media/jupyter_lab/interactive_app_20240305.png)
 
-Set all of the required fields typically, `Account` can be blank that way it uses your default account.
-`Slurm Partition` is set to the type of node you would like to run this typically is set to `CPU`.
-`Number of hours` should be set as accurately as possible that way if you forget to close Jupyter Lab it will free up the nodes.
-`Cores` should be set to as many cores as needed typically this will be set to less than `32`.
-`Nodes` should be set to `1` if you are testing or just getting started. Setting to two or more typically should only be ran as a direct Slurm batch job. Lastly click `Launch` to start the Jupyter Lab instance.
+**Partition:**  
+You should now see the session request form. Begin by selecting the `Slurm Partition`.
+`general` is the the common choose. Note if the preempt partition is selected jobs will be 
+cancelled without warning if a higher priority job is received in the general queue. Then select 
+the version of python (python/3.10) you would like to use.  
 
-![Launch](_media/jupyter_lab/launch.png)
+![Launch](_media/jupyter_lab/partition_form.png)
 
-![Connect](_media/jupyter_lab/connect.png)
+**Python:**  
+You will then need to enter the name of the Python virtual environment (`venv`) you would like 
+to use. If the venv doesn't exist a new venv will be created. If it does exist the OnDemand App 
+will reinstall jupyter. The next option is `Clear venv` checkbox. This option with force the old 
+venv to be deleted.  
 
+![Launch](_media/jupyter_lab/PythonVersion_form.png)
+
+**GPUs:**  
+If you are planning on using libraries that utilize GPUs (like TensorFlow). Ensure 
+that the "Request gpu" option is selected. Additionally, if you library or can utilize 
+more than one GPU request 2 GPUs. Note that not all library can utilize both and selecting 
+both can lead to longer queueing times.
+
+![Launch](_media/jupyter_lab/gpu_form.png)
+
+**System Resource:**  
+You can then select the number of cores needed and the amount of memory per core. 
+In the screenshot we have 32 Cores * 4 GB per core for a total of 128 GB.  
+
+Finally, enter the number of hours your would like the job to run and Launch  
+
+![Connect](_media/jupyter_lab/cores_mem_hours_form.png)
+
+**After Launch:**  
+Your job may queue for a short time. 
+
+![queued.png](_media%2Fjupyter_lab%2Fqueued.png)
+
+Once it has finished queueing click the "Connect to Jupyter" button.
+
+![Running_form.png](_media%2Fjupyter_lab%2FRunning_form.png)
+
+
+ <!--
 ### User kernel
 
 It is very typical that you will need a custom user kernel in order to install packages since the generic kernel ran by the Jupyter install is owned by the system and installing packages will result in a permission denied error. To circumvent this issue the following steps walk you through installing a virtual environment for python and configuring the new virtual environment as a Jupyter kernel.
@@ -85,3 +118,5 @@ Below is an example of the output seen by running the above for `myvenv`.
 Simply type `pip install {package}` to install a package
 
 ![Install Example File](_media/jupyter_lab/kernel_new_install_example.png)
+
+-->
